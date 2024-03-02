@@ -28,12 +28,33 @@
         $num2=$_POST["first_number"];
         $operate =$_POST["operation"];
        
-       if($operate == "add")
-       {
-        $result = $num1 + $num2;
-        echo $result;
-       }
+    //    if($operate == "add")
+    //    {
+    //     $result = $num1 + $num2;
+    //     echo $result;
+    //    }
+ 
+    switch($operate)
+    {
+        case "add":
+            $result =$num1+$num2;
+            echo $result;
+            break;
+            case "min":
+                $result =$num1-$num2;
+                echo $result;
+                break;
+                case "mul":
+                    $result =$num1*$num2;
+                    echo $result;
+                    break;
+                    case "div":
+                        $result =$num1/$num2;
+                        echo $result;
+                        break;
+                        default: echo"nothing";
     }
+}
       ?>
 </body>
 </html>

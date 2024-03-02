@@ -7,7 +7,6 @@
 </head>
 <body>
     <?php
-    $String;
     $Integer = "28";
     $Float = "3.1416";
     $Boolean = "$";
@@ -30,6 +29,7 @@ $Object_name = new actor();
 $Object_name->Actname = "Sahruk Khan";
 $Object_name->Actmovie = "Pathan";
 echo "Actor name is: ".$Object_name->Actname."<br>Movie name is: ".$Object_name->Actmovie."<br>";
+printf("Name: %s, Age: %d", $Name_1, $Integer);
 ?>
 </body>
 </html>
