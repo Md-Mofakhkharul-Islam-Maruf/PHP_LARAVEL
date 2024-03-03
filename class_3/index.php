@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variable scope</title>
+    <title>Variable scope || Operator</title>
 </head>
 <body>
     <?php
@@ -28,7 +28,11 @@
     define("Sitename", "My Portfolio Site <br>");
     echo Sitename;
     define ('PI',"3.1416");
-    echo PI;
+    echo PI."<br>";
+
+    $N1 = 4;
+    $N2 = 15;
+    echo $N1 = + $N2;
 ?>
 </body>
 </html>
