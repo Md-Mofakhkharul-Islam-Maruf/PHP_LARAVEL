@@ -15,4 +15,4 @@ function myname($id,$name)
  // strict function
     ?>
 </body>
-</html>
+</html>                                       ,`
