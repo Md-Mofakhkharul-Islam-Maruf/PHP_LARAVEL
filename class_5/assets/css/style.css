@@ -1,5 +1,20 @@
 fieldset{
-      background: rgb(139, 43, 43);
+      background: rgb(238, 117, 117);
+      /* margin: 0px auto; */
+      width: 30%;
+      margin: 0px auto;
+
+}
+.center{
+    border: 2px solid rgb(7, 61, 239);
+    /* text-align: center; */
+    display: block;
+    margin: 0px auto;
+}
+button{
+    border: 2px solid green;
+    display: block;
+    margin:0px auto;
 }
 .green{
     color: rgb(45, 12, 228);
@@ -9,6 +24,6 @@ fieldset{
     text-transform: uppercase;
     letter-spacing: 3px;
     word-spacing: 10px;
-    text-shadow: 5px 2px 2px  red;
+    text-shadow: 2px 2px 2px  #ff0000;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
